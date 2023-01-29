@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scaler=1.0">
+	<title>GST-filing</title>
+	<link rel="stylesheet" href="swiper-bundle.min.css">
+	<link rel="stylesheet" href="gstfiling-style.css">
+	<!-- <link href="https://fonts.goggleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet"> -->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+	<!-- Navigation -->
+	<header id="nav-bar">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand" href="#"><img src="logo tax1.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fa fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#eligibility">Eligibility</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#process">Process</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#category">Category</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#ttk">Things To Know</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<!-- Registration -->
+		<!-- <section id="registration">
+			<h1>Food License Registration</h1>
+			<p>Choose India's best Business service provider <span>Choose TaxDeck<span></p>
+			<article id="reg-form">
+				<form>
+				<input type="text" tabindex="-1" placeholder="Enter Applicant Name" Pattern="[a-zA-z]+" autocomplete required/>		
+				<input type="mail" tabindex="-1" placeholder="Enter Applicant Email" Pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}" autocomplete required/>		
+				<input type="tel" tabindex="-1" placeholder="Enter Applicant Contact Number" Pattern="[1-9]{1}[0-9]{9}" autocomplete required/>
+				<button tabindex="-1">Next</button>
+				<button tabindex="-1">How It Works</button>
+				</form>
+			</article>
+            <img src="wave1.png" class="bottom-img">
+        </section> -->
+		<section id="registration">
+			<p class="text-center promo-title">GST Filling</p>
+			<p class="text-center">Choose India's best Business service provider <span>Choose TaxDeck<span></p>
+
+			<div class="container">
+				<section class="row justify-content-center">
+					<section class="col-6">
+						<form>
+							<div class="form-group">
+								<!-- <label for="ApplicantName">Applicant Name</label> -->
+								<input type="text" class="form-control" id="ApplicantName" placeholder="Applicant Name">
+							</div>
+							<div class="form-group">
+								<!-- <label for="Email1">Email address</label> -->
+								<input type="email" class="form-control" id="Email1" aria-describedby="emailHelp"
+									placeholder="Email address">
+								<small id="emailHelp" class="form-text text-muted"></small>
+							</div>
+							<div class="form-group">
+								<!-- <label for="number">Contact Number</label> -->
+								<input type="tel" class="form-control" id="number" aria-describedby="emailHelp"
+									placeholder="Contact Number">
+								<small id="emailHelp" class="form-text text-muted"></small>
+							</div>
+						</form>
+					</section>
+				</section>
+				<section class="row justify-content-center">
+					<section class-6>
+						<button type="button" class="btn btn-primary">Next</button>
+						<button type="button" class="btn btn-primary">How to do</button>
+					</section>
+				</section>
+			</div>
+			<img src="wave1.png" class="bottom-img">
+		</section>
+		<!-- Aside -->
+		<aside>
+			<div>
+				<h4>New Offer</h4>
+				<p><span>Flat 51% Off </span><br />on food license registration
+					<br />Processing fees <del>&#8377;3600</del><ins>&#8377;1764</ins>
+			</div>
+			<article>
+				<form>
+					<input type="text" tabindex="-1" placeholder="Enter Applicant Name" Pattern="[a-zA-z]+" autocomplete
+						required />
+					<input type="mail" tabindex="-1" placeholder="Enter Applicant Email"
+						Pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}" autocomplete required />
+					<input type="tel" tabindex="-1" placeholder="Enter Applicant Contact Number"
+						Pattern="[1-9]{1}[0-9]{9}" autocomplete required />
+					<button tabindex="-1">Start Now</button>
+				</form>
+			</article>
+			<hr />
+		</aside>
+		<!-- Procedure -->
+		<section class="services">
+			<h2 class="title">procedure for applying</h2>
+			<article id="procedures">
+				<article>
+					<!-- <img src="dummy.png" class="service-img"> -->
+					<i class="bi bi-list-check" id="iframe"></i>
+					<h3 class="sub-head">Fill Information</h3>
+					<p class="pro">We'll love to know about your company in our eazy to fill forms. </p>
+				</article>
+				<article>
+					<!-- <img src="dummy.png" class="service-img"> -->
+					<i class="bi bi-credit-card-2-front" id="iframe"></i>
+					<h3 class="sub-head">Make Payment</h3>
+					<p class="pro">Select the product as per your need and proceed to payment. </p>
+				</article>
+				<article>
+					<!-- <img src="dummy.png" class="service-img"> -->
+					<i class="bi bi-envelope-open" id="iframe"></i>
+					<h3 class="sub-head">Mail Documents</h3>
+					<p class="pro">Our Experts will assist you with any queries about documents.</p>
+				</article>
+				<article>
+					<!-- <img src="dummy.png" class="service-img"> -->
+					<i class="bi bi-people" id="iframe"></i>
+					<h3 class="sub-head">Sit Back and Relax</h3>
+					<p class="pro">Our passionate team will process your application in fastest time. </p>
+				</article>
+			</article>
+		</section>
+		<!-- Pricing  -->
+		<section id="pricing" class="services">
+			<h2 class="title">Pricing</h2>
+			<div class="flexpricing">
+				<div class="ice-div">
+					<div class="box">
+						<h4>Starter Pack</h4>
+					</div>
+					<div class="include">
+						<h5>"Sole Proprietorship Registration"</h5>
+						<p>₹2000</p>
+						<h5>₹980</h5>
+						<h6>0-100 bills/Entries per month</h6>
+						<h6>12 Months of Filing</h6>
+						<h6>GST assistance</h6>
+						<h6>24*7 Support</h6>
+						<h6 style="border-bottom: none;">GST return toolkit</h6>
+					</div>
+				</div>
+				<div class="ice-div">
+					<div class="box">
+						<h4>Standard Pack</h4>
+					</div>
+					<div class="include">
+						<h5>"Sole Proprietorship Registration with 3 month compliance"</h5>
+						<p>₹8000</p>
+						<h5>₹3920</h5>
+						<h6>100-200 bills/Entries per month</h6>
+						<h6>12 Months of Filing</h6>
+						<h6>GST assistance</h6>
+						<h6>24*7 Support</h6>
+						<h6 style="border-bottom: none;">GST return toolkit</h6>
+					</div>
+				</div>
+				<div class="ice-div">
+					<div class="box">
+						<h4>Advanced Pack</h4>
+					</div>
+					<div class="include">
+						<h5>"Sole Proprietorship Registration with 3 month compliance"</h5>
+						<p>₹8000</p>
+						<h5>₹3920</h5>
+						<h6>Growth Pack</h6>
+						<h6>100-200 bills/Entries per month</h6>
+						<h6>12 Months of Filing</h6>
+						<h6>GST assistance</h6>
+						<h6>24*7 Support</h6>
+						<h6 style="border-bottom: none;">GST return toolkit</h6>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- things to know-->
+		<section class="services">
+			<h2 class="title">Things to know</h2>
+			<div class="things">
+				<ul>
+					<li>On successful payment, you will receive a call from one of our expert.</li>
+					<li>The GST toolkit will be shared with you.</li>
+					<li>You just have to enter the details of purchase and sales invoices according to the columns in
+						the toolkit.</li>
+					<li>Send us the filled toolkit back.</li>
+					<li>Our expert will handle the filing.</li>
+				</ul>
+			</div>
+
+		</section>
+		<!-- TimeLine -->
+		<section class="services" id="timeline">
+			<h2 class="timeline-head">Time Line</h2>
+			<div class="days">
+				<h3><i class="bi bi-chevron-double-right"></i>Day 1</h3>
+				<h5>Expert Consultation</h5>
+				<p>Form Submission, Document Preparation. Drafting of Application by our Experts</p>
+			</div>
+			<div class="days">
+				<h3><i class="bi bi-chevron-double-right"></i>Day 2</h>
+					<h5>Application Submission</h5>
+					<p>Application will be submitted with required government agencies by our team.</p>
+			</div>
+			<div class="days">
+				<h3><i class="bi bi-chevron-double-right"></i>Day 2-10</h3>
+				<h5>Scruitny of the documents</h5>
+				<p>The scrutiny of the documents would be done by the labour department on the basis of which approval
+					would
+					be given.</p>
+			</div>
+			<div class="days">
+				<h3><i class="bi bi-chevron-double-right"></i>Day 11 - 12</h3>
+				<h5>Delivery</h5>
+				<p>Upon successful approval by the department, soft copy will be mailed and hardcopy will be dispatched
+					for
+					delivery.
+				</p>
+			</div>
+		</section>
+		<!-- Eligibility -->
+		<!-- DOCUMENTS REQUIRED  -->
+
+		<!-- Things To Know -->
+		<section class="services" id="ttk">
+			<h2 class="title">Frequently asked questions</h2>
+			<article id="faq">
+				<article>
+					<p onclick="expand(this.id)" id="q1" class="question">What if I am in a composite scheme?
+						<i class="fa fa-plus"></i><i class="fa fa-minus"></i>
+					</p>
+					<p class="answer" id="a1">Business falling under composite scheme can buy monthly package on the
+						basis of number of entries required. For eg if you have sale entries of 50 per month. Your total
+						will be 150 entries for the quarter. So you can buy the standard package which gives 100-200
+						entries</p>
+					<hr>
+				</article>
+				<article>
+					<p onclick="expand(this.id)" id="q2" class="question">Who are required to file Annual return?
+						<i class="fa fa-plus"></i><i class="fa fa-minus"></i>
+					</p>
+					<hr>
+					<p class="answer" id="a2">All taxpayers filing return in GSTR-1 to 3, which does not includes the
+						casual taxpayers and taxpayers under composition scheme are required to file an annual return.
+					</p>
+				</article>
+				<article>
+					<p onclick="expand(this.id)" id="q3" class="question">Is there any penalty for not filing the GST
+						return?
+						<i class="fa fa-plus"></i><i class="fa fa-minus"></i>
+					</p>
+					<hr>
+					<p class="answer" id="a3">All the GST number holders who does not file any GST Return will be
+						tracked by the GST Department and a list of GST return defaulters will be provided to the
+						respective GST authorities. This would incudes the imposition of the automatic late fee which is
+						require to be paid by the GST holders.</p>
+				</article>
+			</article>
+		</section>
+		<section class="services">
+			<h2 class="title">people love taxdeck</h2>
+			<article id="luv">
+				<article>
+					<!-- <img src="dummy.png" class="service-img"> -->
+					<i class="bi bi-alarm-fill" id="iframe"></i>
+					<h3 class="sub-head">On-Time Delivery</h3>
+					<p>We respect your time. Passion drives us. Our services will reflect the same.</p>
+				</article>
+				<article>
+					<!-- <img src="dummy.png" class="service-img"> -->
+					<i class="bi bi-eye-fill" id="iframe"></i>
+					<h3 class="sub-head">100% Transparency</h3>
+					<p>We believe in empowering you. We make sure you are up to date on the progress.</p>
+				</article>
+				<article>
+					<!-- <img src="dummy.png" class="service-img"> -->
+					<i class="bi bi-file-check-fill" id="iframe"></i>
+					<h3 class="sub-head">Customer Priority</h3>
+					<p>Dedicated Customer representative available 24 Hrs to help you with any difficulty.</p>
+				</article>
+				<article>
+					<!-- <img src="dummy.png" class="service-img"> -->
+					<i class="bi bi-hand-thumbs-up-fill" id="iframe"></i>
+					<h3 class="sub-head">Simple and Easy</h3>
+					<p>You don’t need to worry at all. We handle all the complexities on your behalf.</p>
+				</article>
+			</article>
+		</section>
+	</main>
+	<footer id="footer">
+		<img src="wave_white.png" class="footer-img">
+		<section class="container">
+			<article class="row">
+				<article class="col-md-3 footer-box">
+					<img src="logo tax1.png">
+					<p>Taxdeck offers an extensive range of professional services and a high degree of spe-cialization.
+						We serve all type of companies.</p>
+				</article>
+				<article class="col-md-3 footer-box">
+					<p><b>CONTACT US</b></p>
+					<p><i class="bi bi-geo-alt"></i><a class="footer-col" href="#"> World Trade Center, Hydrebad</a></p>
+					<p><i class="bi bi-telephone-outbound-fill"></i><a class="footer-col" href="#"> +91 8309953643</a>
+					</p>
+					<p><i class="bi bi-envelope"></i><a class="footer-col" href="#"> thetaxdeck@gmail.com</a></p>
+				</article>
+				<article class="col-md-2 footer-box">
+					<p><b>GET HELP</b></p>
+					<p><a class="footer-col" href="#"> About Us</a></p>
+					<p><a class="footer-col" href="#"> Contact Us</a></p>
+					<p><a class="footer-col" href="#"> Privacy Policy</a></p>
+					<p><a class="footer-col" href="#"> Terms of Use</a></p>
+				</article>
+
+				<article class="col-md-3 footer-box">
+					<p><b>FOLLOW US</b></p>
+					<p><i class="bi bi-facebook"></i><a class="footer-col" href="#"> Facebook</a></p>
+					<p><i class="bi bi-twitter"></i><a class="footer-col" href="#"> Twitter</a></p>
+					<p><i class="bi bi-instagram"></i><a class="footer-col" href="#"> Instagram</a></p>
+				</article>
+
+			</article>
+			<hr>
+			<p class="copyright">Copyrights&#169; 2023 - TAXDECK PRIVATE LIMITED. All rights reserved</p>
+		</section>
+	</footer>
+	<script src="script.js"></script>
+	<!--Add in the last line of the body-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+
+</html>
