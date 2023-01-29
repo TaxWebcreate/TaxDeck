@@ -1,0 +1,568 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	background-color: grey;
+    font-family: 'Poppins',sans-serif;
+}
+
+/* Navigation */
+#nav-bar{
+    position:sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: radial-gradient(circle at 10% 20%, rgba(164, 38, 199, 0.8) 0.1%, rgba(65, 220, 255, 0.8) 90.1%);
+    padding: 0 ;
+}
+.navbar-brand img{
+    height: 40px;
+	width: 100px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+
+/* Registration Section */
+#registration{
+    color: #fff;
+	text-align:center;
+    padding-top: 5px;
+}
+#registration .promo-title{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+#registration a{
+	color: #fff;
+	text-decoration: none;
+}
+#registration .btn-primary{
+	box-shadow: none;
+	padding: 8px 25px;
+	border: none;
+	border-radius: 20px;
+}
+#registration .bottom-img{
+	padding-top: 40px;
+    width: 100%;
+}
+button:hover{
+	cursor: pointer;
+}
+
+/* Aside */
+aside{
+	margin: 40px 3% 2% 5%;
+	float:right;
+	position: sticky;
+	font-size: 16px;
+	width:23%;
+	height: 70vh;
+	z-index: 2;
+	text-align:center;
+	top: calc(100vh - 80vh);
+	box-shadow: -2px -2px 5px 1px grey,2px 2px 5px 1px grey;
+	animation: ssss .4s linear;
+}
+aside:hover{
+	z-index: 100;
+	animation: sc 0.4s linear;
+	animation-fill-mode: forwards;
+	
+}
+aside div{
+	background-color:#7b1798;
+	background-clip: content-box;
+	color: white;
+	height:200px;
+	margin: 3% 8%;
+}
+aside h4{
+	background-color: green;
+	padding: 5px;
+	display:inline;
+	font-weight:700;
+	font-size: 12px;
+}
+aside span{
+	font-size:24pt;
+}
+aside form input{
+	display: block;
+	width: 85%;
+	height: 40px;
+	border: solid 1px rgba(1,1,1,0.1);
+	padding-left:2px;
+	margin: 5px 7%;
+	border-radius:10px;
+}
+aside button{
+	background-color:#7b1798;
+	color: white;
+	border: solid 1px rgba(1,1,1,0.1);
+	height:40px;
+	width: 200px;
+	padding: 5px 15px;
+	border-radius:20px;
+}
+aside del,aside ins{
+	display: block;
+}
+aside ins{
+	font-size: 24pt;
+	text-decoration:none;
+}
+
+/*Procedure*/
+.services{
+	text-transform: capitalize;
+	padding: 40px 20px;
+	text-align:center;
+	align-items: center;
+	width:70%;
+	margin-top: 20px;
+}
+.title::before{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(17px);
+}
+.sub-head{
+	color: #7b1798;
+	font-size:15px;
+	font-weight: 700;
+	padding: 10px 0;
+}
+#proc #procedures{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#proc .pro{
+	padding:5%;
+}
+#iframe{
+	font-size: 4rem;
+}
+
+/* Process */
+#pro,.activity{
+	display: block;
+	margin: 20px;
+	font-size: 18px;
+}
+#pro article,.activity article{
+	height: 90%;
+	margin: 2% 2% 5% 2%;
+	border: 1.9px solid #000;
+	padding: 10px 30px;
+	border-radius: 15px 0;
+}
+#pro article h3,.activity article h3{
+	font-size: 25px;
+	font-weight: 500;
+}
+
+/* OPC vs Sole Properitoship */
+#tab-items{
+	display: flex;
+	flex-direction: column;
+}
+#tab-items .first-child,#tab-items thead{
+	background-color: #7b1798;
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+#tab-items table{
+	margin: 5px 4%;
+	border: 2px solid #7b1798;
+}
+#tab-items table th,#tab-items table td{
+	padding: 2px 5px;
+}
+#tab-items table h4{
+	font-size: 1.25rem;
+}
+
+/* Types Of Winding Up*/
+.double-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.double-flex .items{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem;
+    border: 2px solid black;
+    border-radius:2rem;
+    overflow: auto;
+	width: 80%;
+}
+.double-flex .sub-head{
+	border-bottom: 3px solid #212529;
+}
+.double-flex .items article{
+	text-align:left;
+	padding: 0 5px;
+}
+.double-flex h2{
+ text-align: center;
+}
+.double-flex #flex-items{
+	display: flex;
+	justify-content: stretch;
+}
+
+/* Trademark Validity */
+#trade-val #ten-years{
+	height: 50vh;
+	position: relative;
+	top: 8vh;
+	width: 20%;
+	margin: auto;
+	text-align: center;
+	border-radius: 50%;
+}
+#trade-val #ten-years h1{
+	font-size: 3.4rem;
+}
+#trade-val #ten-years i{
+	position: absolute;
+	top: 3vh;
+	left: 11rem;
+}
+#trade-val .tr{
+	display: flex;
+	padding: 0 5px;
+	margin: 0 0 3% 10%;
+	border: 1px solid #212529;
+	border-radius: 25px;
+	align-items: center;
+}
+#trade-val .tr article{
+	padding: 10px 20px;
+}
+#trade-val .tr li{
+	text-align: left;
+}
+#trade-val .tr .symbol{
+	font-size: 1rem;
+}
+#trade-val .tr .symbol span{
+	display: block;
+	font-size: 4rem;
+}
+
+/* Paragraph Contents */
+.para-contents #cat-blo{
+	margin:4px 19%;
+	display: flex;
+	justify-content: space-between;
+}
+.para-contents #cat-blo h4{
+	margin: 5px 4px;
+	padding: 5px 6px;
+	border-radius: 10px;
+	background-color: #007bff;
+	color: white;
+	text-align: center;
+}
+.para-contents article{
+	text-align: left;
+	padding-left: 25px;
+}
+.para-contents article p::first-letter{
+	padding-left: 40px;
+}
+.para-contents li{
+	margin-left: 80px;
+}
+
+/* FSSAI-Specific-Eligibility */
+#criterias{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+#criterias h3{
+	color: #000;
+	border: 1px solid #212529;
+	font-size: 14pt;
+	font-weight: 400;
+	margin: 10px 30px;
+	padding: 10px;
+	height: 100px;
+	border-radius: 10px;
+	/* box-shadow: 2px 2px 5px 1px grey,-2px -2px 5px 1px grey; */
+}
+#criterias h3:hover{
+	box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.06),-1px -1px 8px 1px rgba(0,0,0,0.06);
+	/* box-shadow: 20x 20px 30px rgba(0,0,0,0.06); */
+}
+
+/* PRICING  */
+ #pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pricing .ice-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 1rem;
+    border: 2px solid black;
+    border-radius:2rem;
+    overflow: hidden;
+	width: 280px;
+}
+#pricing h2{
+ text-align: center;
+}
+#pricing .ice-div .box{
+    /* border: 2px solid red; */
+    min-height: 6rem;
+    width: 100%;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fde7b9af;
+    /* overflow: hidden; */
+}
+#pricing ins{
+	text-decoration: none;
+}
+#pricing .include{
+    margin-top: 1rem;
+	text-align: left;
+}
+#pricing .ice-div .box h4{
+    margin-top: 1rem;
+}
+#pricing .flexpricing{
+	display: flex;
+	justify-content: space-between;
+}
+
+/*Documents Required*/
+#documents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	margin-top: 2rem;
+}
+#documents .main{
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: center;
+}
+#documents .app-doc{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+	margin: 1rem 1rem;
+    align-items: center;
+	overflow: auto;
+}
+#documents .app{
+    background-color: rgb(38, 38, 38);
+    color: white;
+    width: 100%;
+    padding: 0 0;
+    text-align: center;
+}
+#documents .app-doc p{
+    padding: 0 2rem;
+	border-bottom: 1px solid black;
+	width: 90%;
+}
+
+/* Things To Know */
+#ttk #faq{
+	display: block;
+	margin: 4% 7%;
+	text-align: left;
+}
+#ttk #faq a{
+	text-decoration:none;
+	color: #212529;
+}
+#ttk .question{	
+	padding:0 20px;
+	cursor: pointer;
+}
+#ttk .question:hover{
+	display:block;
+}
+#ttk .answer{
+	padding-left: 20px;
+	display: none;
+}
+#ttk #faq i{
+	float: right;
+	font-size: 20px;
+}
+#ttk .fa-minus{
+	position: relative;
+	left: 20px;
+	visibility:hidden;
+}
+#ttk #faq .qst{
+	text-decoration:none;
+	color: #212529;
+	width:100%;
+	text-align: left;
+	border: none;
+	background-color: inherit;
+	vertical-align:center;
+}
+
+/* People Love TaxDeck */
+#ppl-luv #luv{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+#ppl-luv #luv article{
+	margin: 3px 5px;
+	padding: 3px 5px;
+	border: 1px solid #212529;
+	border-radius: 10px;
+}
+#ppl-luv #luv article:hover{
+	box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.10);
+}
+#ppl-luv span{
+	color: red;
+}
+
+/* Footer */
+#footer
+{
+    background-image: radial-gradient(circle at 10% 20%, rgb(164, 38, 199) 0.1%, rgb(65, 220, 255) 90.1%);
+    color: #fff;
+}
+.footer-img{
+    width: 100%;
+}
+.footer-box
+{
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+hr
+{
+    background-color: #fff;
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.footer-col{
+    color: #fff;
+}
+
+/*Keyframes Rules*/
+@keyframes ssss{
+	0%{
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+	100%{
+		-webkit-transform: scale(1.0);
+		transform: scale(1.0);
+	}
+}
+@keyframes sc{
+	0%{
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+	100%{
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+		box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.10);
+	}
+}
+
+/* Media Queries */
+@media(max-width: 940px){
+	aside,aside div,aside form,aside hr{
+		width:100%;
+		display: none;
+		box-shadow: none;
+		height:0vh;
+	}
+	.services{
+		width:100%;
+	}
+	#luv,#criterias,#cat-blo{
+		display: block !important;
+	}
+	#flex-items,.flexpricing,.main,#procedures{
+		flex-direction: column;
+		align-items: center;
+	}
+	h3{
+		font-size: 18px;
+		font-weight:500;
+	}
+	.title{
+		font-size: 1.5rem;
+	}
+	.title::before{
+		transform: translateY(53px);
+	}
+}
+@media(max-width: 280px){
+	.title{
+		font-size: 1.3rem;
+	}
+	.title::before{
+		transform: translateY(50px);
+	}
+}

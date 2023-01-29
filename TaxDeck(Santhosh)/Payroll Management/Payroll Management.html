@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scaler=1.0">
+    <title>Payroll Management</title>
+    <!-- <link rel="stylesheet" href="swiper-bundle.min.css"> -->
+	<link rel="stylesheet" href="..\santho-styles\7-in-1-styles.css">
+    <!-- <link href="https://fonts.goggleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<style>
+		#registration{
+			background: radial-gradient(circle at 10% 20%, rgba(164, 38, 199, 0.8) 0.1%, rgba(65, 220, 255, 0.8) 90.1%),url("prm-bg.jpg") no-repeat;
+			background-size: 100% 100%;
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<header id="nav-bar">
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<a class="navbar-brand" href="#"><img src="..\santho-styles\images\logo.png"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<i class="fa fa-bars"></i>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#process">Payroll Process</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#activities">Payroll Activities</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#meth-of-payrl">Methods of Payroll</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ttk">FAQ's</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+    </header>
+	<main>
+		<!-- Registration -->
+		<section id="registration">
+		<p class="text-center promo-title">Payroll Management</p>
+        <p class="text-center">Choose India's best Business service provider <span>Choose TaxDeck</span></p>
+
+        <div class="container">
+            <section class="row justify-content-center">
+                <section class="col-6">
+                    <form>
+                        <div class="form-group">
+                            <!-- <label for="ApplicantName">Applicant Name</label> -->
+                            <input type="text" class="form-control" id="ApplicantName" placeholder="Applicant Name" required/>
+                        </div>
+                        <div class="form-group">
+                            <!-- <label for="Email1">Email address</label> -->
+                            <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp"
+                                placeholder="Email address" required/>
+                            <small id="emailHelp" class="form-text text-muted"></small>
+                        </div>
+                        <div class="form-group">
+                            <!-- <label for="number">Contact Number</label> -->
+                            <input type="tel" class="form-control" id="number" aria-describedby="emailHelp"
+                                placeholder="Contact Number" required/>
+                            <small id="emailHelp" class="form-text text-muted"></small>
+                        </div>
+                    </form>
+                </section>
+            </section>
+            <section class="row justify-content-center">
+                <section class-6>
+                    <button type="submit" class="btn btn-primary">Next</button>
+                    <button type="button" class="btn btn-primary">How to do</button>
+                </section>
+            </section>
+        </div>
+       <img src="..\santho-styles\images\wave1.png" class="bottom-img"/>
+		</section>
+		<!-- Aside -->
+		<aside>
+			<div>
+				<h4>New Offer</h4>
+				<p><span>Flat 51% Off </span><br/>on food license registration
+				<br/>Processing fees <del>&#8377;11745</del><ins>&#8377;5990</ins></p>
+			</div>
+			<article>
+				<form>
+					<input type="text" tabindex="-1" placeholder="Enter Applicant Name" Pattern="[a-zA-z]+" autocomplete required/>		
+					<input type="mail" tabindex="-1" placeholder="Enter Applicant Email" Pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}" autocomplete required/>		
+					<input type="tel" tabindex="-1" placeholder="Enter Applicant Contact Number" Pattern="[1-9]{1}[0-9]{9}" autocomplete required/>
+					<button tabindex="-1" >Start Now</button>
+				</form>
+			</article>
+			<hr/>
+		</aside>
+		<!-- Procedure -->
+		<section class="services" id="proc">
+			<h2 class="title">procedure for applying</h2>
+			<article id="procedures">
+				<article>
+					<i class="bi bi-list-check" id="iframe"></i>
+					<h3 class="sub-head">Fill Information</h3>
+					<p class="pro">We'll love to know about your company in our eazy to fill forms.</p>
+				</article>
+				<article>
+					<i class="bi bi-credit-card-2-front" id="iframe"></i>
+					<h3 class="sub-head">Make Payment</h3>
+					<p class="pro">Select the product as per your need and proceed to payment.</p>
+				</article>
+				<article>
+					<i class="bi bi-envelope-open" id="iframe"></i>
+					<h3 class="sub-head">Mail Documents</h3>
+					<p class="pro">Our Experts will assist you with any queries about documents.</p>
+				</article>
+				<article>
+					<i class="bi bi-people" id="iframe"></i>
+					<h3 class="sub-head">Sit Back and Relax</h3>
+					<p class="pro">Our passionate team will process your application in fastest time.</p>
+				</article>
+			</article>
+		</section>
+		<!-- Payroll and HR management -->
+		<section class="services" id="process">
+			<h2 class="title">Payroll processing and HR management</h2>
+			<article id="pro">
+				<article>
+					<p>Payroll processing and HR management is a highly complex task for most small businesses due to the various
+					compliance requirements in India.</p>
+				</article>
+				<article>
+					<p>Most startups do not even have a well-established HR system and processes leading to a discrepancy in hiring the 
+					top talents, retaining good employees, and even while building a productive workplace culture.</p>
+				</article>
+				<article>
+					<p>By outsourcing payroll and HR management to IndiaFilings, an individual can enjoy a stress-free and error-free 
+					payroll cycle every month. </p>
+				</article>
+				<article>
+					<p>Also, our HR experts can help in implementing world-class HR processes in the organization from day one to 
+					support the growth of the business.</p>
+				</article>
+			</article>
+		</section>
+		<!-- Payroll Activities  -->
+		<section class="services" id="activities">
+			<h2 class="title">payroll activities</h2>
+			<h3>Pre-Payroll Activities</h3>
+			<article class="activity">
+				<article>
+					<i class="bi bi-journal-code" id="iframe"></i>
+					<h3 class="sub-head">Defining payroll policy</h3>
+					<p>The first step is wherein the policies to the bank during the payroll processes need to 
+					be established. These policies need to be approved by the management to turn these policies 
+					into standards.</p>
+				</article>
+				<article>
+					<i class="bi bi-arrow-down-right-square" id="iframe"></i>
+					<h3 class="sub-head">Gathering inputs</h3>
+					<p>At this stage, the inputs are gathered from various departments to ensure the accurate calculation of the payroll.</p>
+				</article>
+				<article>
+					<i class="bi bi-file-earmark-check" id="iframe"></i>
+					<h3 class="sub-head">Input validation</h3>
+					<p>It is necessary to verify the validity of the data once it is gathered as a minute mistake can ruin the entire payroll process.</p>
+				</article>
+				<article>
+					<i class="bi bi-calculator" id="iframe"></i>
+					<h3 class="sub-head">Payroll Calculation</h3>
+					<p>This step is when the validated input data is fed into the payroll system for actual payroll processing. The result is the 
+					Net pay after adjusting the necessary taxes and other deductions.</p>
+				</article>
+			</article>
+			<h3>Post-Payroll Activities</h3>
+			<article class="activity">
+				<article>
+					<i class="i bi-file-earmark-text" id="iframe"></i>
+					<h3 class="sub-head">Statutory compliance</h3>
+					<p>The payroll administrator needs to religiously adhere to statutory compliance. There are 
+					various statutory deductions like EPF, TDS, ESI is deducted during the payroll processing.</p>
+				</article>
+				<article>
+					<i class="bi bi-bar-chart-line" id="iframe"></i>
+					<h3 class="sub-head">Payroll accounting</h3>
+					<p>Every organization is required to maintain an accurate book of accounts and the salary 
+					that is paid for one of the significant entries in the books of accounts.</p>
+				</article>
+				<article>
+					<i class="bi bi-cash" id="iframe"></i>
+					<h3 class="sub-head">Payout</h3>
+					<p>After complying with the steps above the salaries can be finally paid in cash or cheque or 
+					via bank transfers. For hassle-free transfers, it is better to have salary accounts of the employees.</p>
+				</article>
+				<article>
+					<i class="bi bi-journal" id="iframe"></i>
+					<h3 class="sub-head">Report</h3>
+					<p>Preparing a report is the last stage and it is necessary to prepare an accurate report containing 
+					information such as the department or location-wise employee cost.</p>
+				</article>
+			</article>
+		</section>
+		<!-- Methods of Payroll -->
+		<section class="services para-contents" id="meth-of-payrl">
+			<h2 class="title">Various methods of payroll management</h2>
+			<article>
+				<article>
+					<h3 class="sub-head">Excel-based payroll management</h3>
+					<p>At the initial stage of operations and when a company has a handful of employees they opt for excel 
+					based payroll management.</p>
+					<p>In excel based payroll management the calculation is done on excel sheets using the standard payroll 
+					calculation template. The already set mathematical formulas help the payroll officer to do the computation.</p>
+					<p>But this method has many errors like</p>
+					<ul>
+						<li>High chances of clerical and mathematical errors as the data are entered manually</li>
+						<li>Difficulty in adding and removing employees from the payroll list</li>
+						<li>Chances of duplicate data and omission of entries at times</li>
+						<li>Need to monitor the tax updates and other statutory changes like the PF, PT, etc.</li>
+					</ul>
+				</article>
+				<article>
+					<h3 class="sub-head">Outsourcing Payroll</h3>
+					<p>When the payroll is outsourced an external agency is taking care of the payroll function. The payroll service 
+					provider based on the pay cycle every month provides various other data such as the attendance, leaves, and 
+					reimbursement details.</p>
+					<p>The external service provider then computes the payroll and takes care of the statutory compliance. Since payroll 
+					is a crucial function IndiaFilings can help you comply with all the needs.</p>
+				</article>
+			</article>
+		</section>
+		<!-- Things To Know -->
+		<section class="services" id="ttk">
+			<h2 class="title">frequently asked questions</h2>
+			<article id="faq">
+				<article>
+					<p onclick="expand(this.id)" id="q1" class="question">What is included in Payroll activities?
+					<i class="fa fa-plus"></i><i class="fa fa-minus"></i></p><hr>
+					<p class="answer" id="a1">Payroll activities include attendance data for a particular month to capture the pays and the 
+					accurate attendance of the employees, details of new employees and employees left, the salary structure of new joiners 
+					and their bank account details, if there is any advance or incentive to be paid and if there are any special changes 
+					that are to be made to the salary structure.</p>
+				</article>
+				<article>
+					<p onclick="expand(this.id)" id="q2"  class="question">Is payroll part of HR and Accounting?
+					<i class="fa fa-plus"></i><i class="fa fa-minus"></i></p><hr>
+					<p class="answer" id="a2">Payroll comes under both the HR and the finance departments.</p>
+				</article>
+				<article>
+					<p onclick="expand(this.id)" id="q3"  class="question"> Who prepares Payroll?
+					<i class="fa fa-plus"></i><i class="fa fa-minus"></i></p><hr>
+					<p class="answer" id="a3">The Human resource office prepares the payroll since they hold the records of the attendance 
+					and the overtime that is rendered by the employees, the accounts department prepares the payment and is subjected to 
+					approval from the head of the Agency or the representative.</p>
+				</article>
+			</article>
+		</section>
+		<!-- People Love TaxDeck -->
+		<section class="services" id="ppl-luv">
+			<h2 class="title">people <span>&hearts;</span> taxdeck</h2>
+			<article id="luv">
+				<article>
+					<i class="bi bi-alarm-fill" id="iframe"></i>
+					<h3 class="sub-head">On-Time Delivery</h3>
+					<p>We respect your time. Passion drives us. Our services will reflect the same.</p>
+				</article>
+				<article>
+					<i class="bi bi-eye-fill" id="iframe"></i>
+					<h3 class="sub-head">100% Transparency</h3>
+					<p>We believe in empowering you. We make sure you are up to date on the progress.</p>
+				</article>
+				<article>
+					<i class="bi bi-file-check-fill" id="iframe"></i>
+					<h3 class="sub-head">Customer Priority</h3>
+					<p>Dedicated Customer representative available 24 Hrs to help you with any difficulty.</p>
+				</article>
+				<article>
+					<i class="bi bi-hand-thumbs-up-fill" id="iframe"></i>
+					<h3 class="sub-head">Simple and Easy</h3>
+					<p>You don’t need to worry at all. We handle all the complexities on your behalf.</p>
+				</article>
+			</article>
+		</section>
+	</main>
+	<!-- Footer -->
+	<footer id="footer">
+		<img src="..\santho-styles\images\wave2.png" class="footer-img"/>
+		<section class="container">
+			<article class="row">
+                <article class="col-md-3 footer-box">
+					<img src="..\santho-styles\images\logo.png">
+                    <p>Taxdeck offers an extensive range of professional services and a high degree of spe-cialization. We serve all type of companies.</p>
+				</article>
+				<article class="col-md-3 footer-box">
+					<p><b>CONTACT US</b></p>
+					<p><i class="bi bi-geo-alt"></i><a class="footer-col" href="#"> World Trade Center, Hydrebad</a></p>
+                    <p><i class="bi bi-telephone-outbound-fill"></i><a class="footer-col" href="#"> +91 8309953643</a></p>
+                    <p><i class="bi bi-envelope"></i><a class="footer-col" href="#"> thetaxdeck@gmail.com</a></p>
+				</article>
+                <article class="col-md-2 footer-box">
+					<p><b>GET HELP</b></p>
+                    <p><a class="footer-col" href="#"> About Us</a></p>
+                    <p><a class="footer-col" href="#"> Contact Us</a></p>
+                    <p><a class="footer-col" href="#"> Privacy Policy</a></p>
+                    <p><a class="footer-col" href="#"> Terms of Use</a></p>
+				</article>
+                
+                <article class="col-md-3 footer-box">
+					<p><b>FOLLOW US</b></p>
+                    <p><i class="bi bi-facebook"></i><a class="footer-col" href="#"> Facebook</a></p>
+                    <p><i class="bi bi-twitter"></i><a class="footer-col" href="#"> Twitter</a></p>
+                    <p><i class="bi bi-instagram"></i><a class="footer-col" href="#"> Instagram</a></p>
+				</article>
+                
+			</article>
+			<hr>
+			<p class="copyright">Copyrights&#169; 2023 - TAXDECK PRIVATE LIMITED. All rights reserved</p>
+		</section>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script src="..\santho-styles\script.js"></script>
+</body>
+</html>
